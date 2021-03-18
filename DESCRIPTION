@@ -22,3 +22,5 @@ Imports:
   ggridges
 Depends: 
     R (>= 2.10)
+URL: https://github.com/xinxiong0238/PostSequelae
+BugReports: https://github.com/xinxiong0238/PostSequelae/issues
