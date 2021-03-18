@@ -38,7 +38,8 @@ bubbleplot <- function(CountDiagnosis, topn) {
     ) +
     ggplot2::theme(text = ggplot2::element_text(size = 12)) +
     ggplot2::theme(axis.text.x = ggplot2::element_text(angle = 45, vjust = 0.75)) +
-    ggplot2::xlab("Day since admission")
+    ggplot2::xlab("Day since admission") +
+    ggplot2::ylab("Codes")
 
   return(Bubble)
 }
