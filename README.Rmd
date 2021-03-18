@@ -38,10 +38,10 @@ library(PostSequelae)
 windows.min <- 0
 windows.max <- 120
 windows.size.bubble <- 10
-windows.size.density = 30
+windows.size.density <- 30
 filter.topn <- 10
 
-data = main(PatientSummary, PatientObservations,
+data <- main(PatientSummary, PatientObservations,
             PheCodes, loinc_mapping, digits = NULL,
             windows.size.bubble, windows.size.density,
             windows.min, windows.max,
